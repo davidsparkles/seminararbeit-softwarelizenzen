@@ -58,7 +58,7 @@ studiengang=\seWirtschaftsinformatik,
 %studienrichtung=\seSalesUndConsulting,
 studienrichtung=\seSoftwareEngineering,
 %studienrichtung=\seSoftwaremethodik,
-thema=\LaTeX-Vorlage zur Anfertigung einer Seminararbeit\\(Version \version{}),
+thema=Rechtliche Probleme im Bereich Opensource Software und gebraucher Software,
 verfasser=J\"org Baumgart,
 %verfasserin= Melanie Musterfrau,
 matrikelnummer=9999999,
@@ -155,30 +155,18 @@ gliederungsebenen=4
 \seVerzeichnisse[gliederungsebene=section,imInhaltsverzeichnis=ja]{abk}{sym}{abb}{tab}{prg}{alg}
 
 
-\seChaptersNewpage{}
 
 
-% Erstes eigentliches Kapitel der Arbeit; typischerweise das Einleitungskapitel;
-% hier muss wieder auf die Nummierung mit arabischen Seitenzahlen umgestellt werden
-%
-\chapter{Einleitung}\pagenumbering{arabic}
-
-\seChaptersWithoutNewpage{}
-
-Hier kommt jetzt ein ein wenig Text.
-
-\seChapterEndSkip{}
 
 
-% Erstes Hauptkapitel der Arbeit 
-%
-%
-%
-\chapter{Der formale Aufbau einer Seminararbeit}
-% Mit markright kann eine verk\"urzte Version der \"Uberschrift f\"ur den Seitenkopf generiert werden
-%
-%
-%\markright{Formaler Aufbau}
+
+
+%=================================================================
+\input{Texte/0_allChapters.tex}
+%=================================================================
+
+
+
 
 
 % Anhang der Arbeit
@@ -190,10 +178,10 @@ Hier kommt jetzt ein ein wenig Text.
 % Gesamtlayout des Dokuments passt
 %
 %
-\seChaptersNewpage
+%\seChaptersNewpage
 \seAppendix{}
 
-\input{\seWaPathText/se-anhang}
+%\input{\seWaPathText/se-anhang}
 
 %
 %  Erzeugung eines Glossars
