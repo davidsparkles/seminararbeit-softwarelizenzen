@@ -1,0 +1,36 @@
+# Files to always ignore
+*.swp
+*.kate-swp
+*.tdo
+se-wa-textbausteine-vorlagen/algorithm2e_exIR.tex
+se-wa-textbausteine-vorlagen/se-anhang.tex
+se-wa-textbausteine-vorlagen/se-englisch.tex
+se-wa-textbausteine-vorlagen/se-hinweise-installation.tex
+se-wa-textbausteine-vorlagen/se-hinweise-literaturverzeichnis.tex
+se-wa-textbausteine-vorlagen/se-latex-kommandos.tex
+se-wa-textbausteine-vorlagen/se-layout-anpassungen.tex
+se-wa-textbausteine-vorlagen/se-literaturempfehlungen.tex
+se-wa-textbausteine-vorlagen/se-nuetzliche-pakete.tex
+se-wa-textbausteine-vorlagen/se-schrifttypen.tex
+se-wa-textbausteine-vorlagen/se-test-abkuerzungen.tex
+se-wa-textbausteine-vorlagen/se-test-floats.tex
+se-wa-textbausteine-vorlagen/se-test-fussnoten.tex
+se-wa-textbausteine-vorlagen/se-test-listen.tex
+se-wa-textbausteine-vorlagen/se-test-literaturverzeichnis.tex
+se-wa-textbausteine-vorlagen/se-test-querverweise.tex
+se-wa-textbausteine-vorlagen/se-test-zitieren.tex
+se-wa-textbausteine-vorlagen/se-tipps.tex
+se-wa-textbausteine-vorlagen/se-zitieren-harvard.tex
+se-wa-textbausteine-vorlagen/wa-abkuerzungen.tex
+# se-wa-textbausteine-vorlagen/wa-konfiguration-deutsch.tex
+se-wa-textbausteine-vorlagen/wa-konfiguration-englisch.tex
+bibtexkeys/
+counter.txt
+jurabib.bst
+jurabib.sty
+onlinequellen/
+softwarelizenzen.pdf
+# se-wa-pfade.tex
+# tb/
+texput.log
+test.sh
