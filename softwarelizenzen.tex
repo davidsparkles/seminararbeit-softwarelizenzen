@@ -2,7 +2,7 @@
 \input{se-wa-pfade}
 %
 %
-% Festlegung der Sprache: 
+% Festlegung der Sprache:
 \newcommand{\seWaSprache}{deutsch}
 %\newcommand{\seWaSprache}{englisch}
 
@@ -19,14 +19,14 @@
 %
 % Definition von Abk\"urzungen, Symbolen und eventuell Glossareintr\"agen
 %
-\input{\seWaPathText/wa-abkuerzungen} 
+\input{\seWaPathText/wa-abkuerzungen}
 
 \seIstSeminararbeit{}
 
 \newcommand{\version}{0.971}
 
-% 
-% Diese Redefinition ist nur f\"ur den Anhang der  
+%
+% Diese Redefinition ist nur f\"ur den Anhang der
 % Vorlage (Hinweise zur Installation und \"Ubersetzung)
 % notwendig; f\"ur Ihre Seminar-/Projekt-/Bachelorarbeit spielt sie keine Rolle
 %
@@ -76,9 +76,9 @@ dozent=Prof. Dr.-Ing. Jörg Baumgart
 
 % Erzeugung der englischen Kurzfassung (Abstract); Verfasser, Firma und Thema werden automatisch \"ubernommen
 %
-% Der optionale Parameter kann verwendet werden, um f\"ur das Thema der Arbeit eine 
+% Der optionale Parameter kann verwendet werden, um f\"ur das Thema der Arbeit eine
 % andere Formatierung vorzunehmen; das sollte in der Regel nicht erforderlich sein;
-% ausserdem besteht die Gefahr inkonsistenter Titel auf dem Titelblatt und in der 
+% ausserdem besteht die Gefahr inkonsistenter Titel auf dem Titelblatt und in der
 % Kurzfassung
 %
 %
@@ -93,9 +93,9 @@ dozent=Prof. Dr.-Ing. Jörg Baumgart
 
 % Erzeugung der Kurzfassung; Verfasser, Firma und Thema werden automatisch \"ubernommen
 %
-% Der optionale Parameter kann verwendet werden, um f\"ur das Thema der Arbeit eine 
+% Der optionale Parameter kann verwendet werden, um f\"ur das Thema der Arbeit eine
 % andere Formatierung vorzunehmen; das sollte in der Regel nicht erforderlich sein;
-% ausserdem besteht die Gefahr inkonsistenter Titel auf dem Titelblatt und in der 
+% ausserdem besteht die Gefahr inkonsistenter Titel auf dem Titelblatt und in der
 % Kurzfassung
 %
 \seKurzfassung{} % dieses Kommando sollte standardm\"assig verwendet werden
@@ -106,7 +106,7 @@ dozent=Prof. Dr.-Ing. Jörg Baumgart
 % Beispiel f\"ur ein Kapitel, dass vor dem Einleitungskapitel kommt, z. B. ein Vorwort oder eine Danksagung
 %\seKapitelVorEinleitung{Vorwort}
 %
-%Muss jetzt wirklich nicht sein, aber wenn Sie unbedingt (z. B.) Ihrem Haustier f\"ur die Unterst\"utzung bei 
+%Muss jetzt wirklich nicht sein, aber wenn Sie unbedingt (z. B.) Ihrem Haustier f\"ur die Unterst\"utzung bei
 %der Anfertigung der Projektarbeit danken wollen ...
 
 % 2012-02-06 Inhaltsverzeichnis muss vor den weiteren Verzeichnisses kommen
@@ -121,7 +121,7 @@ gliederungsebenen=4
 ]
 
 %
-% 
+%
 % Wenn die Verzeichnisse (ohne Seitenvorschub) nach dem Inhaltsverzeichnis
 % kommen sollen, sind die beiden folgenden Kommandos zu verwenden
 %
@@ -144,7 +144,7 @@ gliederungsebenen=4
 % alg: Algorithmenverzeichnis
 %
 %
-% Achtung: Abk\"urzungs- und Symbolverzeichnis werden nur ausgegeben, wenn mindest ein Symbol bzw. 
+% Achtung: Abk\"urzungs- und Symbolverzeichnis werden nur ausgegeben, wenn mindest ein Symbol bzw.
 %                mindestens eine Abk\"urzung in der Arbeit verwendet wurden
 %
 %
@@ -170,23 +170,23 @@ gliederungsebenen=4
 
 
 % Anhang der Arbeit
-% 
+%
 %
 
-% Der Anhang sollte auf einer neuen Seite beginnen; daher wird der Seitenvorschub bei neuen Kapiteln 
-% wieder angeschaltet; Achtung: die Verwendung von newpage erzeugt eine Kopfzeile, was dann nicht zu dem 
+% Der Anhang sollte auf einer neuen Seite beginnen; daher wird der Seitenvorschub bei neuen Kapiteln
+% wieder angeschaltet; Achtung: die Verwendung von newpage erzeugt eine Kopfzeile, was dann nicht zu dem
 % Gesamtlayout des Dokuments passt
 %
 %
-%\seChaptersNewpage
+\seChaptersNewpage
 \seAppendix{}
 
-%\input{\seWaPathText/se-anhang}
+\input{\seWaPathText/se-anhang}
 
 %
 %  Erzeugung eines Glossars
 %
-% Achtung: Das Glossar wird nur ausgegeben, wenn mindestens ein Eintrag in der Arbeit 
+% Achtung: Das Glossar wird nur ausgegeben, wenn mindestens ein Eintrag in der Arbeit
 %                definiert wurde
 %
 %
@@ -217,14 +217,14 @@ gliederungsebenen=4
 %
 %
 % Angabe der bib-Dateien, in denen die Quellen beschrieben sind;
-% die Angabe geht davon aus, dass eine wa.bib-Datei in demselben 
+% die Angabe geht davon aus, dass eine wa.bib-Datei in demselben
 % Verzeichnis liegt, wie se-ba-vorlage.tex
 %
 
 % 2012-02-06
 %
 % Umbenennung von Literatur- in Quellenverzeichnis
-% 
+%
 %\renewcommand*{\bibname}{Quellenverzeichnis}
 \seBibliography{wa}
 
@@ -232,9 +232,9 @@ gliederungsebenen=4
 %
 % Erzeugung der ehrenw\"ortlichen Erkl\"arung
 %
-% Der optionale Parameter kann verwendet werden, um f\"ur das Thema der Arbeit eine 
+% Der optionale Parameter kann verwendet werden, um f\"ur das Thema der Arbeit eine
 % andere Formatierung vorzunehmen; das sollte in der Regel nicht erforderlich sein;
-% ausserdem besteht die Gefahr inkonsistenter Titel auf dem Titelblatt und in der 
+% ausserdem besteht die Gefahr inkonsistenter Titel auf dem Titelblatt und in der
 % ehrenw\"ortlichen Erkl\"arung
 %
 \seEhrenwoertlicheErklaerung{} % dieses Kommando sollte standardm\"assig verwendet werden
@@ -242,14 +242,3 @@ gliederungsebenen=4
 
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
