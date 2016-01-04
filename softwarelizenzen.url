@@ -1,0 +1,11 @@
+%%% jurabib url repository
+\expandafter\urldef\csname jburl@AB:EULA\endcsname\url{http://www.linux-magazin.de/Ausgaben/2007/03/Ich-seh-dich-nicht}
+\expandafter\urldef\csname jburl@Ber:Hoj\endcsname\url{http://www.ctan.org/pkg/jurabib}
+\expandafter\urldef\csname jburl@BJ:sup\endcsname\url{http://tug.ctan.org/tex-archive/macros/latex/contrib/supertabular}
+\expandafter\urldef\csname jburl@FT:tik\endcsname\url{http://sourceforge.net/projects/pgf}
+\expandafter\urldef\csname jburl@Fio:alg\endcsname\url{http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e}
+\expandafter\urldef\csname jburl@HM:lis\endcsname\url{http://www.ctan.org/tex-archive/macros/latex/contrib/listings}
+\expandafter\urldef\csname jburl@Kuh:Bch\endcsname\url{http://www.ctan.org/tex-archive/macros/latex/contrib/bchart}
+\expandafter\urldef\csname jburl@GKN\endcsname\url{http://www.heise.de/newsticker/meldung/Googles-Knowledge-Graph-fuer-Deutschland-1762274.html}
+\expandafter\urldef\csname jburl@Tan:man\endcsname\url{http://tug.ctan.org/tex-archive/graphics/pgf/base/doc/generic/pgf}
+\expandafter\urldef\csname jburl@Tan:tik\endcsname\url{http://www.tcs.uni-luebeck.de/de/mitarbeiter/tantau/forschung/software/}
