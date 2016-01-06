@@ -30,6 +30,8 @@ jurabib.bst
 jurabib.sty
 onlinequellen/
 softwarelizenzen.pdf
+softwarelizenzen.acn
+softwarelizenzen.url
 # se-wa-pfade.tex
 # tb/
 texput.log
